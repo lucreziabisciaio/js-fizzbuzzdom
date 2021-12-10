@@ -15,7 +15,7 @@ for (let i = 0; i < 100; i++) {
     }  
     else if (i % 5 === 0 && i !== 0) {
         // divisibile per entrambi
-        boxContainer.innerHTML += `<div class="box box-ex">fizzbuzz</div>`
+        boxContainer.innerHTML += `<div class="box box-ex text_gray">fizzbuzz</div>`
     } else {
         boxContainer.innerHTML += `<div class="box">${i}</div>`
     }
