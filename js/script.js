@@ -7,7 +7,7 @@ const boxContainer = document.querySelector('.box-container');
 for (let i = 0; i < 100; i++) {
     if (i % 3 === 0 && i % 5 === 0 && i !== 0) {
         // divisibile per 3
-        boxContainer.innerHTML += `<div class="box box-3">fizz</div>`  
+        boxContainer.innerHTML += `<div class="box box-3">fizzbuzz</div>`  
     }
     else if (i % 3 === 0 && i !== 0) {
         // divisibile per 5
@@ -15,7 +15,7 @@ for (let i = 0; i < 100; i++) {
     }  
     else if (i % 5 === 0 && i !== 0) {
         // divisibile per entrambi
-        boxContainer.innerHTML += `<div class="box box-ex text_gray">fizzbuzz</div>`
+        boxContainer.innerHTML += `<div class="box box-ex text_gray">fizz</div>`
     } else {
         boxContainer.innerHTML += `<div class="box">${i}</div>`
     }
